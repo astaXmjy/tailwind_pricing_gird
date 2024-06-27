@@ -1,0 +1,16 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "asta": "tailwindcss -i ./input.css -o ./css/asta.css",
+    "zoro":"tailwindcss -i ./input.css -o ./css/asta.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
